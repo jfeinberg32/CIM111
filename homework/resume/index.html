@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+   <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <style>
+     body {font-family: 'Staatliches', cursive;}
+    </style>
     <meta charset="utf-8">
     <meta name="author" content="Jack Feinberg">
     <meta name="description" content="Learning HTML">
@@ -14,11 +18,34 @@
 
 <!-- Intro Paragraph -->
       <h2>About Me:</h2>
-      <p>I am a sophomore Interactive Media major at the University of Miami.</p>
-      <p>I have a strong work ethic, and am pursuing minors in Marketing as well as Game Design.</p>
-      <p>I grew up in New Jersey, playing soccer and basketball throughout most of my life.</p>
-      <p>I have background in various fields of science, and was invited into my high school's Science Research Program.</p>
-      <p>During my time in this program, I completed a multi-year research project on Spatial Neglect.</p>
+      <p id="line1">I am a sophomore Interactive Media major at the University of Miami.</p>
+      <p id="line2">I have a strong work ethic, and am pursuing minors in Marketing as well as Game Design.</p>
+      <p id="line3">I grew up in New Jersey, playing soccer and basketball throughout most of my life.</p>
+      <p id="line4">I have background in various fields of science, and was invited into my high school's Science Research Program.</p>
+      <p id="line5">During my time in this program, I completed a multi-year research project on Spatial Neglect.</p>
+
+      <style>
+      #line1{
+         background-color: orange;
+         color: green;
+      }
+      #line2{
+        background-color: green;
+        color: orange;
+      }
+      #line3{
+        font-size: 15px;
+        text-decoration: overline;
+      }
+      #line4{
+        font-size: 10px;
+        text-decoration: line-through;
+      }
+      #line5{
+        font-size: 20px;
+        color: blue;
+      }
+      </style>
 
       <h2>Education:</h2>
       <ul>
@@ -97,8 +124,36 @@
       </table>
 
       <h2>Social Media:</h2>
-      <p>LinkedIn:</p> <a href="https://www.linkedin.com/in/jack-feinberg-298381177/">Click Here</a> <br>
-      <p>Facebook:</p> <a href="https://www.facebook.com/jackfeinberg32">Click Here</a>
+      <h3>LinkedIn:</h3> <a href="https://www.linkedin.com/in/jack-feinberg-298381177/">Click Here</a> <br>
+      <h3>Facebook:</h3> <a href="https://www.facebook.com/jackfeinberg32">Click Here</a>
+
+      <style>
+
+      h1 {
+        text-decoration: underline;
+      }
+      h2 {
+        text-decoration: underline;
+      }
+      a {
+        color: red;
+        text-decoration: none;
+      }
+        a:hover {
+          background-color: purple;
+          transition: background-color 1s;
+        }
+        /* this gradient is supposed to be my new CSS property */
+        blockquote{
+          background: linear-gradient(orange, green);
+          color: purple;
+        }
+        address {
+          text-transform: uppercase;
+          color: black;
+          background-color: blue;
+        }
+      </style>
 
       <blockquote>
       "You miss 100% of the shots you don't take" - Wayne Gretzky - Michael Scott - Jack Feinberg
