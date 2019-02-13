@@ -51,3 +51,9 @@ a {
     color: black;
     background-color: blue;
   }
+  .class="underline"{
+    text-decoration: underline;
+  }
+  .class="green"{
+    color: green;
+  }
