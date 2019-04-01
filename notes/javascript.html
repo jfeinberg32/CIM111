@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Notes</title>
+  </head>
+  <body>
+
+    <h1 id="click1">Click Here for More Info</h1>
+    <p id="hideInfo">This is more info.</p>
+    <h1 id="click2">Click Here to Hide More Info</h1>
+
+    <h1 id="mouseOverOut">Mouse Over and Out to See CSS Change</h1>
+
+
+    <script type="text/javascript" src="js/jquery.js">  </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //All jquery code goes below
+        $("#hideInfo").hide();
+        $("#click1").click(function(){
+          $("#hideInfo").show();
+        });
+        $("#click2").click(function(){
+          $("#hideInfo").hide();
+        });
+        $("#mouseOverOut").mouseenter(function(){
+          $("#mouseOverOut").css("color","green");
+        });
+
+        $("#mouseOverOut").mouseleave(function(){
+          $("#mouseOverOut").css("color","black")
+        });
+        //End of jquery code
+      });
+    </script>
+
+  </body>
+</html>
