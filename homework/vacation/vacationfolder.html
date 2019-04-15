@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+    <title>Italy Vacation</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Vacationing in Italy </h1>
+    </header>
+
+    <main>
+      <div class="about">
+      <h3>About Italy: </h3>
+        <p>Italy is a country in Southern Europe, with borders touching France, Switzerland, Austria and Slovenia. It is in the middle of the Mediterranean Sea, and contains two independent countries inside it's borders: San Marino and the Vatican City. There are many incredible cities to visit where you can see historic landmarks, go to beautiful museams and eat some of the best food you will ever encounter.</p>
+      </div>
+
+      <h2 id = "header2"></h3>
+      <div class="locations">
+        <div class="amalfi">
+          <h3>Amalfi Coast</h3>
+          <p>The Amalfi Coast is located in the Campania region of southern Italy, right on the west coast. The stretch of coast is a beautiful and popular tourist attraction due to the geography and town of Amalfi.</p>
+        </div>
+
+        <div class="florence">
+          <h3>Florence:</h3>
+          <p>Florence is located near central Italy. It is the capital of the region of Tuscany, and is the city where the famous and powerful Medici family resided. It is considered to be the birthplace of the Renaissance. Important landmarks include the Ponte Vecchio, the Duomo, and Michelangelo's David.</p>
+        </div>
+
+        <div class="rome">
+          <h3>Rome:</h3>
+          <p>Rome is the capital city of Italy, located in the Lazio region of central Italy. It includes the smallest country in the world, the Vatican City, Rome also has landmarks such as the Spanish Steps, and the famous Colosseum.</p>
+        </div>
+
+        <div class="vatican">
+          <h3>The Vatican City:</h3>
+          <p>The Vatican City is the smallest country in the world, and only shares a border with Italy. It is the home of the Pope and tons of Catholic landmarks such as the Sistene Chapel, St. Peter's Basilica, and the Vatican Museums. </p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="list">
+          <h3>Important Things to Bring</h3>
+          <ul>
+            <li>Camera</li>
+            <li>Water Bottle</li>
+            <li>Backpack</li>
+            <li>Raincoat</li>
+            <li>Your Passport</li>
+          </ul>
+        </div>
+
+        <div class="supplies">
+          <img class="pics" src="images/bottle.jpg" alt="">
+          <img class="pics" src="images/camera.jpg" alt="">
+          <img class="pics" src="images/backpack.jpg" alt="">
+          <img class="pics" src="images/passport.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="photos">
+        <h2>Photo Gallery</h2>
+        <div id="nanogallery2">
+          Photos
+        <div>
+      </div>
+
+    </main>
+
+    <footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link  href="https://unpkg.com/nanogallery2@2.4.2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script  type="text/javascript" src="https://unpkg.com/nanogallery2@2.4.2/dist/jquery.nanogallery2.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        jQuery("#nanogallery2").nanogallery2( {
+                       // ### gallery settings ###
+                       thumbnailHeight:  150,
+                       thumbnailWidth:   150,
+
+
+                       // ### gallery content ###
+                       items: [
+                           { src: 'images/coast.jpg', srct: 'images/coast.jpg', title: 'The Amalfi Coast' },
+                           { src: 'images/town.jpg', srct: 'images/town.jpg', title: 'The Town of Amalfi' },
+                           { src: 'images/building.jpg', srct: 'images/building.jpg', title: 'Bassilica of Santa Croce' },
+                           { src: 'images/view.jpg', srct: 'images/view.jpg', title: 'City of Florence' },
+                           { src: 'images/rome.jpg', srct: 'images/rome.jpg', title: 'Rome' },
+                           { src: 'images/colo.jpg', srct: 'images/colo.jpg', title: 'The Colosseum' },
+                           { src: 'images/chapel.jpg', srct: 'images/chapel.jpg', title: 'The Sistene Chapel' },
+                           { src: 'images/statue.jpg', srct: 'images/statue.jpg', title: 'Statues in the Vatican Museum' }
+                         ]
+                     });
+      });
+      </script>
+
+  </body>
+
+
+</html>

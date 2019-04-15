@@ -1,0 +1,51 @@
+  html{
+  background-color: tan;
+  }
+
+  header {
+    background-color: #518bff;
+    text-align: center;
+    border-style: double;
+    margin-bottom: 7px;
+  }
+
+  .about{
+    background-color: #518bff;
+    border-style: dashed;
+  }
+
+  .grid {
+    background-color: #518bff;
+    border-style: dashed;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    }
+
+  .supplies {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  img{
+    width: 130px;
+    margin: auto;
+    display: block;
+  }
+
+  .locations{
+    background-color: #518bff;
+    border-style: dashed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 7px;
+  }
+
+  .pics{
+    width: 100px;
+  }
+
+  .header2{
+    background-color: #518bff;
+
+  }
