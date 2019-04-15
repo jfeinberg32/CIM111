@@ -3,7 +3,7 @@
   }
 
   header {
-    background-color: #518bff;
+    background-image: linear-gradient(to right, green, white, red);
     text-align: center;
     border-style: double;
     margin-bottom: 7px;
@@ -39,6 +39,14 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-bottom: 7px;
+  }
+
+  .florence{
+    margin-left: 6px;
+  }
+
+  .vatican{
+    margin-left: 6px;
   }
 
   .pics{
