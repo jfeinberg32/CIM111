@@ -1,0 +1,24 @@
+header{
+  background-color: tan;
+  border-style: inset;
+  text-align: center;
+}
+
+.about{
+  background-color: aqua;
+  border-style: inset;
+  display: flex;
+}
+
+.about1{
+  width: 50%;
+}
+
+.about2{
+  width: 50%;
+}
+
+.sites{
+  background-color: yellow;
+  border-style: inset;
+}
