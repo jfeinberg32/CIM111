@@ -36,6 +36,11 @@ a{
   padding: 5px;
 }
 
+#link4{
+  background-color:  #659dbd;
+  padding: 5px;
+}
+
 #link1:hover{
   font-size: 20px;
   color: #fbeec1;
@@ -49,6 +54,12 @@ a{
 }
 
 #link3:hover{
+  font-size: 20px;
+  color: #fbeec1;
+  cursor: pointer;
+}
+
+#link4:hover{
   font-size: 20px;
   color: #fbeec1;
   cursor: pointer;
@@ -145,6 +156,7 @@ a{
   background-color: tan;
   width: auto;
   border-style: ridge;
+  padding: 5px;
 }
 
 button:hover{

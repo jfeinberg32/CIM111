@@ -1,14 +1,25 @@
 html{
   font-family: 'Quattrocento', serif;
+  /*grass background-image: url("https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
+  /* white background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
+   background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+  /*gray tiles background-image: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
 }
 
 header{
-  background-color: #daad86;
+  width: 70%;
+  margin: 0 auto;
+  background-image: url("https://farm3.staticflickr.com/2531/4114943327_8bc7c21e18_b.jpg");
+  height: 500px;
   border-style: ridge;
   text-align: center;
   padding-bottom: 12px;
 }
 
+main{
+  width: 70%;
+  margin: 0 auto;
+}
 nav{
   display: inline-block;
   text-align: center;
@@ -36,6 +47,11 @@ a{
   padding: 5px;
 }
 
+#link4{
+  background-color:  #659dbd;
+  padding: 5px;
+}
+
 #link1:hover{
   font-size: 20px;
   color: #fbeec1;
@@ -54,8 +70,14 @@ a{
   cursor: pointer;
 }
 
+#link4:hover{
+  font-size: 20px;
+  color: #fbeec1;
+  cursor: pointer;
+}
+
 .about1{
-  background-color: #659dbd;
+  background-color: tan;
   border-style: ridge;
   display: flex;
   padding: 5px;
@@ -143,6 +165,7 @@ a{
   background-color: tan;
   width: auto;
   border-style: ridge;
+  padding: 5px;
 }
 
 button:hover{
