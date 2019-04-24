@@ -57,39 +57,40 @@ a{
 .about1{
   background-color: #659dbd;
   border-style: ridge;
-  display: flex;
   padding: 5px;
-
+  display: grid;
 }
 
 .aboutme{
-  width: 50%
+  width: 100%;
+  display: grid;
 }
 
 .hobbies{
-  width: 50%
+  width: 100%;
+  display: grid;
 }
 
 .about2{
-  width: 100%;
   background-color: #8d8741;
   border-style: ridge;
-  display: flex;
+  display: grid;
   padding: 5px;
+}
+
+.coursework{
+  display: grid;
+}
+
+.experience{
+  display: grid;
 }
 
 .about3{
   background-color: #fbeec1;
   border-style: ridge;
   padding: 5px;
-}
-
-.coursework{
-  width: 50%
-}
-
-.experience{
-  width: 50%
+  display: grid;
 }
 
 .reviews{

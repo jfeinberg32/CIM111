@@ -78,20 +78,20 @@ a{
   padding: 5px;
 }
 
+
+.coursework{
+  width: 50%;
+}
+
+.experience{
+  width: 50%;
+}
+
 .about3{
   background-color: #fbeec1;
   border-style: ridge;
   padding: 5px;
 }
-
-.coursework{
-  width: 50%
-}
-
-.experience{
-  width: 50%
-}
-
 .reviews{
   background-color: #bc986a;
   padding: 5px;
