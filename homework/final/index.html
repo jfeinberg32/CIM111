@@ -7,6 +7,7 @@
     <meta name="keywords" content="intro, html, web">
     <meta name="viewport" content="inital-scale=1">
     <link rel="stylesheet" href="desktop.css">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
     <!--    <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 600px)">
     <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 600px)"> -->
     <title>Jack Feinberg's Web Portfolio</title>
@@ -18,14 +19,29 @@
       <h1>Jack Feinberg</h1>
       <h2>Web Designer</h2>
       <h3>Spring 2019</h3>
+      <nav>
+          <a id="about" href="#about">About</a>
+          <a id="websites" href="#websites">Websites</a>
+          <a id="reviews" href="#reviews">Reviews</a>
+      </nav>
     </header>
 
     <main>
-      <div class="about">
+        <a name="about"></a>
         <div class="about1">
+          <div class="aboutme">
         <h3>About Me:</h3>
-        <p>I am a sophomore Interactive Media major at the Univeristy of Miami. I plan to also minor in Marketing, as well as Game Design. This summer I will be interning at CriticalMention, a marketing software company located in New York City. One day I hope to work at a large video game company such as Activision.</p>
+        <ul>
+          <li>University of Miami Sophomore</li>
+          <li>Major: Interactive Media</li>
+          <li>Minors: Marketing and Game Design</li>
+          <li>GPA: 3.3</li>
+          <li>Interning at CriticalMention this summer</li>
+        </ul>
+
         <p>This portfolio is a collection of the work I have completed during the Spring 2019 semester in CIM111 (Cinema and Interactive Media) at the University of Miami.</p>
+      </div>
+      <div class="hobbies">
         <h3>Hobbies</h3>
           <ul>
             <li>Basketball, soccer and football</li>
@@ -33,7 +49,10 @@
             <li>Watching new movies</li>
           </ul>
         </div>
+      </div>
+
         <div class="about2">
+          <div class="coursework">
           <h3>Relevant Coursework:</h3>
           <ul>
             <li>Web Lab</li>
@@ -43,6 +62,8 @@
             <li>Dynamic Data (tbd)</li>
             <li>Physical Computing (tbd)</li>
           </ul>
+        </div>
+        <div class="experience">
           <h3>Experience:</h3>
           <ul>
             <li>HTML</li>
@@ -52,43 +73,68 @@
         </div>
       </div>
 
-      <div class="sites">
+      <div class="about3">
+        <a name="websites"></a>
+        <div class="sites">
         <h3>Web Lab Website Assigments</h3>
-        <p><b>Click on bullets to view website</b></p>
+        <p><b>Click to view:</b></p>
         <ul>
-          <li><a href="https://jfeinberg32.github.io/CIM111/homework/resume/index.html" target="_blank">Resume</a></li>
+          <li><a id="resume" href="https://jfeinberg32.github.io/CIM111/homework/resume/index.html" target="_blank">Resume</a></li>
           <ul>
             <li>An introductory resume website assingment.</li>
           </ul>
-          <li><a href="https://jfeinberg32.github.io/CIM111/homework/website/site.html" target="_blank">Responsive</a></li>
+          <li><a id="responsive" href="https://jfeinberg32.github.io/CIM111/homework/website/site.html" target="_blank">Responsive</a></li>
           <ul>
             <li>A responsive website that responds to changes in screen size (desktop vs. mobile screens).</li>
           </ul>
-          <li><a href="https://jfeinberg32.github.io/CIM111/homework/howto/index.html" target="_blank">How-To</a></li>
+          <li><a id="howto" href="https://jfeinberg32.github.io/CIM111/homework/howto/index.html" target="_blank">How-To</a></li>
           <ul>
             <li>An introduction to using Jquery by making a How-To website.</li>
           </ul>
-          <li><a href="https://jfeinberg32.github.io/CIM111/homework/vacation/vacationfolder.html" target="_blank">Jquery</a></li>
+          <li><a id="jquery" href="https://jfeinberg32.github.io/CIM111/homework/vacation/vacationfolder.html" target="_blank">Jquery</a></li>
           <ul>
             <li>A more advanced Jquery website using plugins.</li>
           </ul>
         </ul>
+        </div>
       </div>
 
+      <div class="reviews">
+        <a name="reviews"></a>
+        <h3>Website Reviews:</h3>
+        <h4 id="click1">Click to Show:</h4>
+        <blockquote>
+          "Jack was very professional and got my website done on time. Couldn't be happier with his work!"<b> - Symere Woods </b>
+        </blockquote>
+        <blockquote>
+          "Wonderful working with Jack and I am extremely satisfied with the final product."<b> - Rakim Mayers </b>
+        </blockquote>
+        <blockquote>
+          "I was very happy the project was finished before the guarenteed date and it looks amazing! Would recommmend his services to anyone looking to get a better presence of the web. Definitely going to Jack with any web-based projects in the future."<b> - Dwayne Michael Carter Jr. </b>
+        </blockquote>
+      </div>
 
     </main>
 
-    <footer></footer>
-
+    <footer>
+      <address class="address">
+        Email: jfeinberg3232@gmail.com <br>
+        Univeristy of Miami School of Communication <br>
+        Coral Gables, FL
+      </address>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-// JAVASCRIPT HERE
+        $("blockquote").hide();
+        $("#click1").click(function(){
+          $("blockquote").show();
+        });
+      }); </script>
 
-      };
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+     <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138864302-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -97,6 +143,7 @@
 
           gtag('config', 'UA-138864302-1');
         </script>
+
   </body>
 
 </html>
