@@ -146,3 +146,7 @@ a{
   width: auto;
   border-style: ridge;
 }
+
+button:hover{
+  cursor: pointer;
+}
