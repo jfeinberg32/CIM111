@@ -21,34 +21,34 @@ a{
   color: black;
 }
 
-#about{
+#link1{
   background-color:  #659dbd;
   padding: 5px;
 }
 
-#websites{
+#link2{
   background-color:  #659dbd;
   padding: 5px;
 }
 
-#reviews{
+#link3{
   background-color:  #659dbd;
   padding: 5px;
 }
 
-#about:hover{
+#link1:hover{
   font-size: 20px;
   color: #fbeec1;
   cursor: pointer;
 }
 
-#websites:hover{
+#link2:hover{
   font-size: 20px;
   color: #fbeec1;
   cursor: pointer;
 }
 
-#reviews:hover{
+#link3:hover{
   font-size: 20px;
   color: #fbeec1;
   cursor: pointer;
