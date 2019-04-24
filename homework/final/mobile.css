@@ -1,24 +1,147 @@
-header{
-  background-color: tan;
-  border-style: inset;
-  text-align: center;
+html{
+  font-family: 'Quattrocento', serif;
 }
 
-.about{
-  background-color: aqua;
-  border-style: inset;
-  display: flex;
+header{
+  background-color: #daad86;
+  border-style: ridge;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+nav{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#about{
+  background-color:  #659dbd;
+  padding: 5px;
+}
+
+#websites{
+  background-color:  #659dbd;
+  padding: 5px;
+}
+
+#reviews{
+  background-color:  #659dbd;
+  padding: 5px;
+}
+
+#about:hover{
+  font-size: 20px;
+  color: #fbeec1;
+  cursor: pointer;
+}
+
+#websites:hover{
+  font-size: 20px;
+  color: #fbeec1;
+  cursor: pointer;
+}
+
+#reviews:hover{
+  font-size: 20px;
+  color: #fbeec1;
+  cursor: pointer;
 }
 
 .about1{
-  width: 50%;
+  background-color: #659dbd;
+  border-style: ridge;
+  display: flex;
+  padding: 5px;
+
+}
+
+.aboutme{
+  width: 50%
+}
+
+.hobbies{
+  width: 50%
 }
 
 .about2{
-  width: 50%;
+  width: 100%;
+  background-color: #8d8741;
+  border-style: ridge;
+  display: flex;
+  padding: 5px;
 }
 
-.sites{
-  background-color: yellow;
-  border-style: inset;
+.about3{
+  background-color: #fbeec1;
+  border-style: ridge;
+  padding: 5px;
+}
+
+.coursework{
+  width: 50%
+}
+
+.experience{
+  width: 50%
+}
+
+.reviews{
+  background-color: #bc986a;
+  padding: 5px;
+  border-style: ridge;
+}
+
+#resume:hover{
+  font-size: 17px;
+  background-color: #bc986a;
+}
+
+#responsive:hover{
+  font-size: 17px;
+  background-color: #bc986a;
+}
+
+#howto:hover{
+  font-size: 17px;
+  background-color: #bc986a;
+}
+
+#jquery:hover{
+  font-size: 17px;
+  background-color: #bc986a;
+}
+
+#click1:hover{
+  cursor: pointer;
+}
+
+#resume{
+  background-color: tan;
+}
+
+#responsive{
+  background-color: tan;
+}
+
+#howto{
+  background-color: tan;
+}
+
+#jquery{
+  background-color: tan;
+}
+
+.address{
+  margin-top: 3px;
+  text-align: center;
+  background-color: tan;
+  width: auto;
+  border-style: ridge;
 }
