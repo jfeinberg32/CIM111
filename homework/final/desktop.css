@@ -1,9 +1,9 @@
 html{
   font-family: 'Quattrocento', serif;
-  /* grass background-image: url("https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
-  /* white background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
-  background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-   /* hexagons background-image: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
+   /* grass background-image: url("https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
+   background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  /* galaxy background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
+  /* hexagons background-image: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 
 header{

@@ -1,10 +1,14 @@
 html{
   font-family: 'Quattrocento', serif;
+  /* background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+  background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
 }
 
 header{
-  background-color: #daad86;
+  background-image: url("https://farm3.staticflickr.com/2531/4114943327_8bc7c21e18_b.jpg");
   border-style: ridge;
+  height: 550px;
   text-align: center;
   padding-bottom: 12px;
 }
@@ -41,6 +45,11 @@ a{
   padding: 5px;
 }
 
+#link5{
+  background-color:  #659dbd;
+  padding: 5px;
+}
+
 #link1:hover{
   font-size: 20px;
   color: #fbeec1;
@@ -65,16 +74,29 @@ a{
   cursor: pointer;
 }
 
+#link5:hover{
+  font-size: 20px;
+  color: #fbeec1;
+  cursor: pointer;
+}
+
 .about1{
   background-color: #659dbd;
   border-style: ridge;
   padding: 5px;
   display: grid;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .aboutme{
   width: 100%;
-  display: grid;
+  display: inline-block;
+}
+
+.center{
+  width: 175px;
+  margin-left: 185px;
 }
 
 .hobbies{
@@ -87,6 +109,7 @@ a{
   border-style: ridge;
   display: grid;
   padding: 5px;
+  margin-bottom: 5px;
 }
 
 .coursework{
@@ -102,10 +125,11 @@ a{
   border-style: ridge;
   padding: 5px;
   display: grid;
+  margin-bottom: 5px;
 }
 
 .reviews{
-  background-color: #8d8741;
+  background-color: tan;
   padding: 5px;
   border-style: ridge;
 }
@@ -151,7 +175,7 @@ a{
 }
 
 .address{
-  margin-top: 3px;
+  margin-top: 5px;
   text-align: center;
   background-color: tan;
   width: auto;
