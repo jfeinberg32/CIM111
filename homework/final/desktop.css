@@ -1,25 +1,28 @@
 html{
   font-family: 'Quattrocento', serif;
-  /*grass background-image: url("https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
+  /* grass background-image: url("https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
   /* white background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
-   background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-  /*gray tiles background-image: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
+  background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+   /* hexagons background-image: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
 }
 
 header{
   width: 70%;
   margin: 0 auto;
   background-image: url("https://farm3.staticflickr.com/2531/4114943327_8bc7c21e18_b.jpg");
-  height: 500px;
+  height: 550px;
   border-style: ridge;
   text-align: center;
   padding-bottom: 12px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 main{
   width: 70%;
   margin: 0 auto;
+  box-shadow: 0 0 5px 5px #888;
 }
+
 nav{
   display: inline-block;
   text-align: center;
@@ -52,6 +55,11 @@ a{
   padding: 5px;
 }
 
+#link5{
+  background-color:  #659dbd;
+  padding: 5px;
+}
+
 #link1:hover{
   font-size: 20px;
   color: #fbeec1;
@@ -76,12 +84,19 @@ a{
   cursor: pointer;
 }
 
+#link5:hover{
+  font-size: 20px;
+  color: #fbeec1;
+  cursor: pointer;
+}
+
 .about1{
   background-color: tan;
   border-style: ridge;
   display: flex;
   padding: 5px;
-
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .aboutme{
@@ -92,29 +107,32 @@ a{
   width: 50%
 }
 
+.center{
+  width: 175px;
+  margin-left: 75px;
+}
+
 .about2{
   background-color: #bc986a;
   border-style: ridge;
   display: flex;
   padding: 5px;
+  margin-bottom: 5px;
 }
-
 
 .coursework{
   width: 50%;
 }
 
-.experience{
-  width: 50%;
-}
 
 .about3{
   background-color: #fbeec1;
   border-style: ridge;
   padding: 5px;
+  margin-bottom: 5px;
 }
 .reviews{
-  background-color: #8d8741;
+  background-color: tan;
   padding: 5px;
   border-style: ridge;
 }
@@ -122,21 +140,25 @@ a{
 #resume:hover{
   font-size: 17px;
   background-color: #bc986a;
+  cursor: pointer;
 }
 
 #responsive:hover{
   font-size: 17px;
   background-color: #bc986a;
+  cursor: pointer;
 }
 
 #howto:hover{
   font-size: 17px;
   background-color: #bc986a;
+  cursor: pointer;
 }
 
 #jquery:hover{
   font-size: 17px;
   background-color: #bc986a;
+  cursor: pointer;
 }
 
 #click1:hover{
@@ -160,7 +182,7 @@ a{
 }
 
 .address{
-  margin-top: 3px;
+  margin-top: 5px;
   text-align: center;
   background-color: tan;
   width: auto;
