@@ -21,9 +21,8 @@
       <nav>
           <a id="link1" href="#about">About</a>
           <a id="link2" href="#websites">Websites</a>
-          <a id="link3" href="#reviews">Reviews</a>
-          <a id="link4" href="https://forms.gle/5eXRdTTmgWgHGLS27" target="_blank">Contact Me</a>
-          <a id="link5" href="https://www.linkedin.com/in/jack-feinberg-298381177/">Linkedin Profile</a>
+          <a id="link4" href="https://forms.gle/2iLb9GCzdR2N7odz5" target="_blank">Contact Me</a>
+          <a id="link5" href="https://www.linkedin.com/in/jack-feinberg-298381177/">LinkedIn Profile</a>
       </nav>
     </header>
 
@@ -77,25 +76,25 @@
         <a name="websites"></a>
         <h3>Past Projects:</h3>
         <div class="l1">
-          ___________________________________________________________________________________________________________________
+          <hr>
           <h4>Resume</h4>
           <p>A brief resume project meant to be an introduction to HTML and CSS.</p>
           <a id="resume" href="https://jfeinberg32.github.io/CIM111/homework/resume/index.html" target="_blank">Click to view site!</a>
         </div>
         <div class="l2">
-          ___________________________________________________________________________________________________________________
+          <hr>
           <h4>Responsive Site</h4>
           <p>A responsive website that uses media queries to adjust CSS when viewing on a desktop compared to a mobile device.</p>
           <a id="resume" href="https://jfeinberg32.github.io/CIM111/homework/website/site.html" target="_blank">Click to view site!</a>
         </div>
         <div class="l3">
-          ___________________________________________________________________________________________________________________
+          <hr>
           <h4>Intro to Javascript</h4>
           <p>A how-to website providing an introduction to javascript and interactivity.</p>
           <a id="resume" href="https://jfeinberg32.github.io/CIM111/homework/howto/index.html" target="_blank">Click to view site!</a>
         </div>
         <div class="l4">
-          ___________________________________________________________________________________________________________________
+          <hr>
           <h4>JQuery Plugins</h4>
           <p>Introduction to jquery plugins by making a vacation site and implementing a photo gallery plugin.</p>
           <a id="resume" href="https://jfeinberg32.github.io/CIM111/homework/vacation/vacationfolder.html" target="_blank">Click to view site!</a>
@@ -105,7 +104,7 @@
       <div class="reviews">
         <a name="reviews"></a>
         <h3>Website Reviews:</h3>
-        <button type="button">Click to Show:</button>
+        <button type="button">Click to Show/Hide:</button>
         <blockquote>
           "Jack was very professional and got my website done on time. Couldn't be happier with his work!"<b> - Symere Woods </b>
         </blockquote>
@@ -115,7 +114,7 @@
         <blockquote>
           "I was very happy the project was finished before the guarenteed date and it looks amazing! Would recommmend his services to anyone looking to get a better presence of the web. Definitely going to Jack with any web-based projects in the future."<b> - Dwayne Michael Carter Jr. </b>
         </blockquote>
-      </div>
+    </div>
 
         <address class="address">
           Univeristy of Miami School of Communication <br>
@@ -130,9 +129,11 @@
       $(document).ready(function(){
         $("blockquote").hide();
         $("button").click(function(){
-          $("blockquote").show();
+          $("blockquote").toggle();
         });
-      }); </script>
+      });
+
+    </script>
 
 
 

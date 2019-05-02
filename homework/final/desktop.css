@@ -1,4 +1,5 @@
 html{
+  scroll-behavior: smooth;
   font-family: 'Quattrocento', serif;
    /* grass background-image: url("https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
    background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -20,7 +21,6 @@ header{
 main{
   width: 70%;
   margin: 0 auto;
-  box-shadow: 0 0 5px 5px #888;
 }
 
 nav{
@@ -45,10 +45,6 @@ a{
   padding: 5px;
 }
 
-#link3{
-  background-color:  #659dbd;
-  padding: 5px;
-}
 
 #link4{
   background-color:  #659dbd;
@@ -72,11 +68,6 @@ a{
   cursor: pointer;
 }
 
-#link3:hover{
-  font-size: 20px;
-  color: #fbeec1;
-  cursor: pointer;
-}
 
 #link4:hover{
   font-size: 20px;
@@ -91,12 +82,13 @@ a{
 }
 
 .about1{
-  background-color: tan;
+  background-color: #D9B08C;
   border-style: ridge;
   display: flex;
   padding: 5px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 .aboutme{
@@ -113,28 +105,30 @@ a{
 }
 
 .about2{
-  background-color: #bc986a;
+  background-color: #FFCB9A;
   border-style: ridge;
   display: flex;
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 .coursework{
   width: 50%;
 }
 
-
 .about3{
   background-color: #fbeec1;
   border-style: ridge;
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px 5px #888;
 }
 .reviews{
   background-color: tan;
   padding: 5px;
   border-style: ridge;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 #resume:hover{
@@ -182,14 +176,19 @@ a{
 }
 
 .address{
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
   background-color: tan;
   width: auto;
   border-style: ridge;
   padding: 5px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 button:hover{
   cursor: pointer;
+}
+
+hr{
+  border-top: 2px dotted black;
 }

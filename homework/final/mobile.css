@@ -1,16 +1,17 @@
 html{
+  scroll-behavior: smooth;
   font-family: 'Quattrocento', serif;
   /* background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
   background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-
 }
 
 header{
   background-image: url("https://farm3.staticflickr.com/2531/4114943327_8bc7c21e18_b.jpg");
   border-style: ridge;
-  height: 550px;
+  height: 500px;
   text-align: center;
   padding-bottom: 12px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 nav{
@@ -35,10 +36,6 @@ a{
   padding: 5px;
 }
 
-#link3{
-  background-color:  #659dbd;
-  padding: 5px;
-}
 
 #link4{
   background-color:  #659dbd;
@@ -62,12 +59,6 @@ a{
   cursor: pointer;
 }
 
-#link3:hover{
-  font-size: 20px;
-  color: #fbeec1;
-  cursor: pointer;
-}
-
 #link4:hover{
   font-size: 20px;
   color: #fbeec1;
@@ -81,16 +72,16 @@ a{
 }
 
 .about1{
-  background-color: #659dbd;
+  background-color: #D9B08C;
   border-style: ridge;
   padding: 5px;
   display: grid;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 .aboutme{
-  width: 100%;
   display: inline-block;
 }
 
@@ -100,16 +91,16 @@ a{
 }
 
 .hobbies{
-  width: 100%;
   display: grid;
 }
 
 .about2{
-  background-color: #bc986a;
+  background-color: #FFCB9A;
   border-style: ridge;
   display: grid;
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 .coursework{
@@ -121,37 +112,39 @@ a{
 }
 
 .about3{
-  background-color: #fbeec1;
+  background-color: #D1E8E2;
   border-style: ridge;
   padding: 5px;
   display: grid;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 .reviews{
-  background-color: tan;
+  background-color: #84ceeb;
   padding: 5px;
   border-style: ridge;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 #resume:hover{
   font-size: 17px;
-  background-color: #bc986a;
+  background-color: #FFCB9A;
 }
 
 #responsive:hover{
   font-size: 17px;
-  background-color: #bc986a;
+  background-color: #FFCB9A;
 }
 
 #howto:hover{
   font-size: 17px;
-  background-color: #bc986a;
+  background-color: #FFCB9A;
 }
 
 #jquery:hover{
   font-size: 17px;
-  background-color: #bc986a;
+  background-color: #FFCB9A;
 }
 
 #click1:hover{
@@ -159,30 +152,35 @@ a{
 }
 
 #resume{
-  background-color: tan;
+  background-color: #FFCB9A;
 }
 
 #responsive{
-  background-color: tan;
+  background-color: #FFCB9A;
 }
 
 #howto{
-  background-color: tan;
+  background-color: #FFCB9A;
 }
 
 #jquery{
-  background-color: tan;
+  background-color: #FFCB9A;
 }
 
 .address{
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
-  background-color: tan;
+  background-color: #8e8d8a;
   width: auto;
   border-style: ridge;
   padding: 5px;
+  box-shadow: 0 0 5px 5px #888;
 }
 
 button:hover{
   cursor: pointer;
+}
+
+hr{
+  border-top: 2px dotted black;
 }
