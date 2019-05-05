@@ -74,7 +74,7 @@
 
       <div class="about3">
         <a name="websites"></a>
-        <h3>Past Projects:</h3>
+        <h3>Past Web Lab Projects:</h3>
         <div class="l1">
           <hr>
           <h4>Resume</h4>
@@ -104,7 +104,7 @@
       <div class="reviews">
         <a name="reviews"></a>
         <h3>Website Reviews:</h3>
-        <button type="button">Click to Show/Hide:</button>
+        <button type="button">Click to Show:</button>
         <blockquote>
           "Jack was very professional and got my website done on time. Couldn't be happier with his work!"<b> - Symere Woods </b>
         </blockquote>
@@ -129,7 +129,7 @@
       $(document).ready(function(){
         $("blockquote").hide();
         $("button").click(function(){
-          $("blockquote").toggle();
+          $("blockquote").fadeIn(2000);
         });
       });
 
