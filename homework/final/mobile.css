@@ -1,7 +1,6 @@
 html{
   scroll-behavior: smooth;
   font-family: 'Quattrocento', serif;
-  /* background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
   background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
@@ -72,7 +71,7 @@ a{
 }
 
 .about1{
-  background-color: #D9B08C;
+  background-color: #F2FF99;
   border-style: ridge;
   padding: 5px;
   display: grid;
@@ -95,7 +94,7 @@ a{
 }
 
 .about2{
-  background-color: #FFCB9A;
+  background-color: #E8E89B;
   border-style: ridge;
   display: grid;
   padding: 5px;
@@ -112,7 +111,7 @@ a{
 }
 
 .about3{
-  background-color: #D1E8E2;
+  background-color: #FFF8B8;
   border-style: ridge;
   padding: 5px;
   display: grid;
@@ -121,7 +120,7 @@ a{
 }
 
 .reviews{
-  background-color: #84ceeb;
+  background-color: #E8D99B;
   padding: 5px;
   border-style: ridge;
   box-shadow: 0 0 5px 5px #888;
@@ -129,22 +128,22 @@ a{
 
 #resume:hover{
   font-size: 17px;
-  background-color: #FFCB9A;
+  background-color: #bc986a;
 }
 
 #responsive:hover{
   font-size: 17px;
-  background-color: #FFCB9A;
+  background-color: #bc986a;
 }
 
 #howto:hover{
   font-size: 17px;
-  background-color: #FFCB9A;
+  background-color: #bc986a;
 }
 
 #jquery:hover{
   font-size: 17px;
-  background-color: #FFCB9A;
+  background-color: #bc986a;
 }
 
 #click1:hover{
@@ -152,25 +151,25 @@ a{
 }
 
 #resume{
-  background-color: #FFCB9A;
+  background-color: tan;
 }
 
 #responsive{
-  background-color: #FFCB9A;
+  background-color: #tan;
 }
 
 #howto{
-  background-color: #FFCB9A;
+  background-color: #tan;
 }
 
 #jquery{
-  background-color: #FFCB9A;
+  background-color: #tan;
 }
 
 .address{
   margin-top: 10px;
   text-align: center;
-  background-color: #8e8d8a;
+  background-color: #FFE6AB;
   width: auto;
   border-style: ridge;
   padding: 5px;

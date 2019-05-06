@@ -1,10 +1,7 @@
 html{
   scroll-behavior: smooth;
   font-family: 'Quattrocento', serif;
-   /* grass background-image: url("https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
-   background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  /* galaxy background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") */
-  /* hexagons background-image: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+  background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
 header{
@@ -82,7 +79,7 @@ a{
 }
 
 .about1{
-  background-color: #D9B08C;
+  background-color: #F2FF99;
   border-style: ridge;
   display: flex;
   padding: 5px;
@@ -105,7 +102,7 @@ a{
 }
 
 .about2{
-  background-color: #FFCB9A;
+  background-color: #E8E89B;
   border-style: ridge;
   display: flex;
   padding: 5px;
@@ -118,14 +115,14 @@ a{
 }
 
 .about3{
-  background-color: #fbeec1;
+  background-color: #FFF8B8;
   border-style: ridge;
   padding: 5px;
   margin-bottom: 10px;
   box-shadow: 0 0 5px 5px #888;
 }
 .reviews{
-  background-color: tan;
+  background-color: #E8D99B;
   padding: 5px;
   border-style: ridge;
   box-shadow: 0 0 5px 5px #888;
@@ -178,7 +175,7 @@ a{
 .address{
   margin-top: 10px;
   text-align: center;
-  background-color: tan;
+  background-color: #FFE6AB;
   width: auto;
   border-style: ridge;
   padding: 5px;
