@@ -79,7 +79,7 @@ a{
 }
 
 .about1{
-  background-color: #F2FF99;
+  background-color: #FDFBE1;
   border-style: ridge;
   display: flex;
   padding: 5px;
@@ -102,7 +102,7 @@ a{
 }
 
 .about2{
-  background-color: #E8E89B;
+  background-color: #E3DFCA;
   border-style: ridge;
   display: flex;
   padding: 5px;
@@ -115,14 +115,14 @@ a{
 }
 
 .about3{
-  background-color: #FFF8B8;
+  background-color: #FBF7EB;
   border-style: ridge;
   padding: 5px;
   margin-bottom: 10px;
   box-shadow: 0 0 5px 5px #888;
 }
 .reviews{
-  background-color: #E8D99B;
+  background-color: #E3DACA;
   padding: 5px;
   border-style: ridge;
   box-shadow: 0 0 5px 5px #888;
@@ -175,7 +175,7 @@ a{
 .address{
   margin-top: 10px;
   text-align: center;
-  background-color: #FFE6AB;
+  background-color: #FDF0E1;
   width: auto;
   border-style: ridge;
   padding: 5px;
