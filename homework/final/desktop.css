@@ -78,6 +78,10 @@ a{
   cursor: pointer;
 }
 
+#ast{
+  font-size: 12px;
+}
+
 .about1{
   background-color: #FDFBE1;
   border-style: ridge;
