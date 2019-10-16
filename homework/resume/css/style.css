@@ -1,30 +1,18 @@
 
+html {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-#line1{
-   background-color: orange;
-   color: green;
+body {
+width: 600px;
+margin: auto;
+padding: 15px;
+border-style: solid;
 }
-#line2{
-  background-color: green;
-  color: orange;
-}
-#line3{
-  font-size: 15px;
-  text-decoration: overline;
-}
-#line4{
-  font-size: 10px;
-  text-decoration: line-through;
-}
-#line5{
-  font-size: 20px;
-  color: blue;
-}
-.underline{
-  text-decoration: underline;
-}
-.green{
-  color: green;
+
+#me {
+ margin: auto;
 }
 
 h1 {
@@ -38,14 +26,18 @@ a {
   text-decoration: none;
 }
   a:hover {
-    background-color: purple;
-    transition: background-color 1s;
+    font-weight: bold;
+    transition: font-weight 2s;
+    background-color: aqua;
+    transition: background-color 2s;
   }
   /* this gradient is supposed to be my new CSS property */
-  blockquote{
-    background: linear-gradient(orange, green);
-    color: purple;
+
+  blockquote {
+    border-style: solid;
+    padding: 5px;
   }
+
   address {
     text-transform: uppercase;
     color: black;
