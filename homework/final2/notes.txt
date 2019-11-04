@@ -1,0 +1,3 @@
+[ ] = google analytics
+[ ] = website fade in 
+[ ] = jquery gallery

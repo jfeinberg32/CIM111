@@ -8,11 +8,19 @@ body {
 width: 600px;
 margin: auto;
 padding: 15px;
-border-style: solid;
 }
 
 #me {
  margin: auto;
+}
+
+#name{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#number{
+  display: inline-block;
 }
 
 h1 {
@@ -22,27 +30,12 @@ h2 {
   text-decoration: underline;
 }
 a {
-  color: red;
   text-decoration: none;
 }
   a:hover {
     font-weight: bold;
-    transition: font-weight 2s;
-    background-color: aqua;
-    transition: background-color 2s;
-  }
-  /* this gradient is supposed to be my new CSS property */
-
-  blockquote {
-    border-style: solid;
-    padding: 5px;
   }
 
-  address {
-    text-transform: uppercase;
-    color: black;
-    background-color: blue;
-  }
   .class="underline"{
     text-decoration: underline;
   }
